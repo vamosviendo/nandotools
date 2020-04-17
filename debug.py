@@ -7,8 +7,8 @@ def mostrar(*args, marcador=MARCADOR):
         marcador que los resalta, para que se vean claramente en medio de 
         todo el otro texto que salga por consola
     """
-    print(MARCADOR)
+    print(marcador)
     for arg in args:
         print(arg)
-    print(MARCADOR)
+    print(marcador)
 
