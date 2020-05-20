@@ -12,8 +12,8 @@ def marca(titulo=''):
         largo = 66
         titulo = titulo[0:60]
 
-    respuesta = "##" + titulo
-    for x in range(0, 77-largo):
+    respuesta = "## " + titulo + " "
+    for x in range(0, 75-largo):
         respuesta += "#"
 
     return respuesta
